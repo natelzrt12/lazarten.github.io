@@ -84,7 +84,7 @@ h3{
     margin: 0;
     letter-spacing: .5rem;
     color:black;
-    text-shadow:.09375rem .09375rem .09375rem #000;
+    text-shadow: none;
     font-family:'Alfa Slab One', Garamond, serif;
     font-weight: normal;
     text-align:center;
@@ -136,7 +136,6 @@ p {
     padding-bottom: 0rem;
     padding-left: 1rem;
     padding-right: 1rem;
-        
     width: 90%;
     text-align: left;
     }
