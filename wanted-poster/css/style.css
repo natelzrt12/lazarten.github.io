@@ -98,6 +98,7 @@ h4{ text-transform: uppercase;
     font-family:'Alfa Slab One', Garamond, serif;
     font-weight: normal;
     text-align:center;
+    padding-bottom: 1.125rem;
 }
 h4>span {
     padding-top: 0rem;
@@ -133,8 +134,10 @@ p {
     padding-top: 8rem;
     padding-bottom: 8rem;
     padding-left: 8rem;
-    padding-right: 8rem;}
-
+    padding-right: 8rem;
+    width: 90%;
+    text-align: left;
+    }
 
 
 /* Image & Figure */
@@ -147,7 +150,20 @@ img {
     margin-right: auto;
     max-width: 50rem;
 }
+figure {margin-bottom: 2rem;
+}
+figcaption {padding-top: .5rem;
+    text-align: right;
+}
 
 /* Footer */
-
-
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 2rem; 
+    border-top-style: solid;
+    border-top-width: 2rem;
+    border-top-color: #333;
+}
