@@ -81,8 +81,8 @@ header, footer {
 
 
 @font-face {
-    font-family: 'josefinslab-regular';
-src: url(../fonts/josefinslab-regular'.ttf); format('truetype')
+font-family: 'josefinslab-regular';
+src: url(../fonts/josefinslab-regular'.ttf); 
 font-weight: normal;
 font-style: normal;
 }
