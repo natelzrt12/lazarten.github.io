@@ -82,12 +82,12 @@ header, footer {
 
 @font-face {
 font-family: 'josefinslab-regular'; 
-src: url(../fonts/josefinslab-regular'.ttf); 
+src: url(../fonts/josefinslab-regular'.ttf)format('truetype')
 font-weight: normal;
 font-style: normal;
 }
 @font-face {
-font-family: 'montserrat-regular', sans-serif;
+font-family: 'montserrat-regular', sans-serif; format('truetype')
 src: url(../fonts/montserrat-regular.ttf); 
 font-weight: normal;
 font-style: normal;
@@ -141,8 +141,7 @@ a:visited {color: #33658a}
 
 a:focus,
 a:hover {
-    
-}
+    }
 
 
 
@@ -155,12 +154,14 @@ ul {
     margin-left: 0rem;
     margin-right: 0rem;
     list-style-type: square;
+    text-decoration-line: none;
 }
 ol {
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 0rem;
     margin-bottom: 0rem;
+    list-style-type: 
 }
 .long-list a:hover {
     transition: 
@@ -183,7 +184,9 @@ nav a{
     text-align: center;
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
-    border: solid; color: #33658A; width: 0.063rem;
+    border-style: solid; 
+    border-color: #33658A;
+    border-width: 0.063rem;
 }
 
 nav a:focus {
