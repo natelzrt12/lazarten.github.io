@@ -162,7 +162,7 @@ ol {
     margin-bottom: 1rem;
     margin-left: 0rem;
     margin-bottom: 0rem;
-    list-style-type: lowercase-letter;
+    list-style-type:lower-alpha;
 }
 .long-list a:hover {
     transition: 
