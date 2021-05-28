@@ -81,13 +81,13 @@ header, footer {
 
 
 @font-face {
-    font-family: 'josefinslab-regular;
+    font-family: Josefinslab;
 src: url(../fonts/josefinslab-regular'.ttf); format('truetype')
 font-weight: normal;
 font-style: normal;
 }
 @font-face {
-font-family: 'montserrat-regular'; sans-serif
+font-family: Montserrat; sans-serif
 src: url(../fonts/montserrat-regular.ttf); format('truetype')
 font-weight: normal;
 font-style: normal;
@@ -113,18 +113,49 @@ h2{
         
 }
 
-
+h2+p{ 
+    text-indent: 1.5rem;    
+}
+p{
+    font-size: .75rem;
+    letter-spacing: .0031rem;
+    word-spacing: .125rem;
+    
+}
+li{
+    font-size: .75rem;
+    word-spacing: .0031rem;
+    
+}
+figcaption{
+    
+}
 
 /* Link Styling */
+a{color: #33658A}
 
+a:link,
+a:visited {color: #33658a}
 
+a:focus,
+a:hover {
+    
+}
 
 
 
 
 /* List Styling */
 
-
+ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    list-style-type: square;
+}
+ol {}
+.long-list a:hover {}
 
 
 
@@ -161,8 +192,9 @@ nav a:active{
 
 /* Footer Styles */
 
-
-
+footer{
+    text-align: center;
+}
 
 
 
