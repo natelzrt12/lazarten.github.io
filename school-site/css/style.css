@@ -137,7 +137,7 @@ figcaption{
 /* Link Styling */
 a{color: #33658A}
 
-a:link,
+a:link {color: #3365A}
 a:visited {color: #33658a}
 
 a:focus,
