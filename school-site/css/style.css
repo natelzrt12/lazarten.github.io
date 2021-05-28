@@ -82,12 +82,12 @@ header, footer {
 
 @font-face {
 font-family: 'josefinslab-regular'; 
-src: url(../fonts/josefinslab-regular'.ttf)format('truetype')
+src: url(../fonts/josefinslab-regular'.ttf))
 font-weight: normal;
 font-style: normal;
 }
 @font-face {
-font-family: 'montserrat-regular', sans-serif; format('truetype')
+font-family: 'montserrat-regular', sans-serif;
 src: url(../fonts/montserrat-regular.ttf); 
 font-weight: normal;
 font-style: normal;
@@ -161,7 +161,7 @@ ol {
     margin-bottom: 1rem;
     margin-left: 0rem;
     margin-bottom: 0rem;
-    list-style-type: 
+    list-style-type: lowercase-letter;
 }
 .long-list a:hover {
     transition: 
