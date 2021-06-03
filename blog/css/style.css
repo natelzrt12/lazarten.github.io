@@ -282,19 +282,25 @@ button {
 }
 
 
+
 html {
     font-family: Roboto, Arial, sans-serif;
 }
+
 .main-section p {
     line-height: 1.75rem;
     text-shadow: 0 0 4px #ccc;
 }
+
+
+
 main {
     margin: 0 auto 0 auto;
     width: 90%;
     padding-right: 0;
     
 }
+
 h1 {
     font-family: Roboto;
     color: #333;
@@ -307,6 +313,7 @@ h1 {
     text-shadow: 2px 2px 2px #333;
     letter-spacing: 0.15rem;
 }
+
 h1 span {
     font-family: Ultra, serif;
     font-size: 1.05em;
@@ -319,6 +326,7 @@ h1 span {
     letter-spacing: .15rem;
     box-shadow: 3px 3px 3px #333;
 }
+
 nav {
     font-size: 2rem;
     text-decoration-line: none;
@@ -329,6 +337,7 @@ nav {
     margin-bottom: 4.5rem;
     margin-right: 0;
 }
+
 nav a {
     display: inline-block;
     font-family: Roboto, serif;
@@ -336,6 +345,7 @@ nav a {
     color: #27476e;
     font-weight: bold;
 }
+
 nav a:focus {
     color: #000;
     transform: rotate(4deg);
@@ -346,6 +356,7 @@ nav a:focus {
     top: -0.25rem;
     
 }
+
 .article-image {
     float: left;
     margin: 0 1.25rem 1rem 0;
@@ -359,24 +370,29 @@ nav a:focus {
     display: grid;
     grid-template-columns: repeat(3, 23.75rem);
 }
+
 .subsection figure {
     background-color: #eeeedd;
 }
 .subsection figcaption {
     
 }
+
 .subsection img {
     width: 23rem;
     display: block;
 }
+
 h2 {
     font-family: Roboto, serif;
     font-size: 1.75rem;
     color: #333;
 }
+
 .main-section {
     display: flex;
 }
+
 article {
     margin-right: 3rem;
     max-width: 1125px;
@@ -397,22 +413,27 @@ aside p {
     padding-bottom: 1.75rem;
     border-bottom: 2px solid #333;
     display: block;
+
 }
+
 aside h3 {
     max-width: 17rem;
     margin-left: 0;
 }
+
 .expand {
     display: block;
     margin-top: 0.25rem;
     text-decoration: none;
     font-size: 0.3rem !important;
 }
+
 time {
     font-style: italic;
     font-size: 0.9rem;
     margin-left: 0.1rem;
 }
+
 h3 {
     font-family: Roboto;
     color: #333;
@@ -426,6 +447,7 @@ aside h3:first-of-type {
 aside img {
     width: 18rem;
 }
+
 article p:first-of-type {
     margin-top: 0;
 }
