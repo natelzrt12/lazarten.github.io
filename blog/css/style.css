@@ -148,20 +148,16 @@ h1 span {
     box-shadow: 3px 3px 3px #333;
 }
 
-h2 {
-    font-size: 1.5rem;
-    color: #333;
-}
+h2 {font-size: 1.5rem;
+    color: #333;}
 
 aside h3:first-of-type {
-    margin-top: 0;
-}
+    margin-top: 0;}
 
 h3 {
     font-size: 1rem;
     color: #333;
-    margin: 1rem auto;
-}
+    margin: 1rem auto;}
 
 p {
     font-size: 1rem;
@@ -176,18 +172,15 @@ aside p {
     font-size: 0.75rem;
     line-height: 1rem;
     padding-bottom: 1.5rem;
-    border-bottom: 2px solid #333;
-}
+    border-bottom: 2px solid #333;}
 
 footer p:nth-child(1) {
     float: left;
-    margin: 0;
-}
+    margin: 0;}
 
 footer a {
     text-decoration: none;
-    color: #6f7d77;
-}
+    color: #6f7d77;}
 
 footer p:nth-child(2) {
     text-align: right;
