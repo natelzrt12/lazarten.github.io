@@ -67,7 +67,6 @@ main, footer {
     min-width: 42.5rem;
 }
 
-/* Positioning and Gird Layout */
 
 header {
     
@@ -102,7 +101,7 @@ footer {
     margin-bottom: 2rem;
 }
 
-/* Imported typefaces */
+
 
 @font-face {
     font-family: "Roboto";
@@ -118,7 +117,6 @@ footer {
     font-style: normal;
 }
 
-/* Typography */
 
 html {
     font-family: Roboto, "Arial", sans-serif;
