@@ -48,229 +48,203 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
- * {
-font-size: 1rem;
+ /* General setup */
+
+* {
+    box-sizing: border-box;
 }
 
-/*--Layout--*/
-* {
-    background-color:whitesmoke;
+html {
+    font-size:16px;
+}
+
+nav {
+    min-width: 47.5rem;
+}
+
+main, footer {
+    margin: 1.25rem auto;
+    width: 90%;
+    min-width: 42.5rem;
+}
+
+/* Positioning and Gird Layout */
+
+header {
+    
 }
 
 .main-section {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 0.75rem;
+}
+
+article {
+    grid-column: 1;
+    grid-row: 1;
+    padding-right: 2rem;
+}
+
+.subsection {
     display: flex;
-    margin-left: 3rem;
-    margin-right: 1rem;
+    margin-top: 4em;
+}
+
+aside {
+    grid-column: 2;
+    grid-row: 1;
+    border-left: 2px solid #333;
+    padding-left: 2.5rem;
+}
+
+footer {
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+/* Imported typefaces */
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/sans-serif/roboto-regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Ultra";
+    src: url(../fonts/serif/ultra-regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Typography */
+
+html {
+    font-family: Roboto, "Arial", sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+    transform: rotate(-4deg);
+    color: #333;
+    text-align: center;
+    margin-top: 2.25rem;
+    margin-bottom: 6rem;
+    text-shadow: 2px 2px 2px #333;
+    letter-spacing: 0.1rem;
+}
+
+h1 span {
+    display: inline-block;
+    font-size: 3.7rem;
+    font-family: Ultra, serif;
+    color: #eeeedd;
+    background-color: #83344d;
+    padding: .05rem 1rem;
+    border-radius: 1rem 0 1rem 0;
+    font-weight: normal;
+    box-shadow: 3px 3px 3px #333;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+aside h3:first-of-type {
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #333;
+    margin: 1rem auto;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+article p:first-of-type {
+    margin-top: 0;
+}
+
+aside p {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #333;
+}
+
+footer p:nth-child(1) {
+    float: left;
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #6f7d77;
+}
+
+footer p:nth-child(2) {
+    text-align: right;
+    padding-left: 46rem;
+}
+
+time {
+    font-style: italic;
+    font-size: 0.75rem;
+}
+
+/* Navigation Menu */
+
+nav {
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding-left: 2.5rem;
+    margin-bottom: 3.5rem;
+}
+
+nav a {
+    font-size: 1.65rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #27476e;
+    display: inline-block;
+    padding: 2rem 2.5rem 1.75rem 2rem;
+}
+
+nav a:focus {
+    transform: rotate(3deg);
+    text-transform: uppercase;
+    font-size: 1.4em;
+    color: #000;
+    text-decoration: line-through;
+    padding-right: 2.425rem;
+    position: relative;
+    top: -.35rem;
+}
+
+/* Figures and Images */
+
+.subsection figure {
+    margin: 0;
+    margin-right: 0.5em;
+    background-color: #eeeedd;
+}
+
+img {
+    width: 100%;
 }
 
 .article-image {
     float: left;
     margin-right: 1rem;
-}
-
-.subsection {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-/*--Header and Footer--*/
-
-
-.copyright {
-   float: left;
-   text-align: left;
-}
-
-.links {
-   float: right;
-   text-align: right;
-}
-
-/*---------------------------------------------------------------------*/
-
-
-
-/* Imported Typefaces */
-@font-face {
-
-    font-family:"montserrat";
-    src: url(../fonts/sans-serif/montserrat-regular.ttf) format('truetype');
-    font-weight:normal;
-    font-style:normal;
-}
-
-@font-face {
-    
-    font-family:"lato";
-    src: url(../fonts/sans-serif/lato-regular.ttf) format('truetype');
-    font-weight:normal;
-    font-style:normal;
-}
-
-@font-face {
-    font-family:"opensans";
-    src: url(../fonts/sans-serif/opensans-regular.ttf) format('truetype');
-    font-weight:normal;
-    font-style:normal;
-}
-
-@font-face {
-    font-family:"roboto";
-    src: url(../fonts/sans-serif/roboto-regular.ttf) format('truetype');
-    font-weight:normal;
-    font-style:normal;
-}
-    @font-face {
-
-        font-family:"josefinslab";
-        src: url(../fonts/serif/josefinslab-regular.ttf) format('truetype');
-        font-weight:normal;
-        font-style:normal;
-    }
-
-    @font-face {
-        font-family:"robotoslab";
-        src: url(../fonts/serif/robotoslab-regular.ttf) format('truetype');
-        font-weight:normal;
-        font-style:normal;
-    }
-
-    @font-face {
-        font-family:"rozhaone";
-        src: url(../fonts/serif/rozhaone-regular.ttf) format('truetype');
-        font-weight:normal;
-        font-style:normal;
-    }
-
-    @font-face {
-        font-family:"ultra";
-        src: url(../fonts/serif/ultra-regular.ttf) format('truetype');
-        font-weight:normal;
-        font-style:normal;
-    }
-/* Typography Styles */
-
-h1 {
-    font-family:"opensans", Verdana, sans-serif;
-    font-size: 3rem;
-    font-weight: bold;
-    text-shadow: black;
-    text-align: center;
-    margin-bottom: 3.5rem;
-    }
-
-.highlight {
-    font-family:"ultra", Times, serif;
-    font-size: 4rem;
-    border: .5rem solid maroon;
-    background-color: maroon;
-    border-top-left-radius: 10% 30%;
-    border-bottom-right-radius: 10% 30%;
-    box-shadow: black;
-    color:rgba(230, 240, 147, 0.986);
-    text-align: center;
-    margin-bottom: 1 rem;
-}
-
-nav {
-    border-top: .03125rem solid black;
-    border-bottom: .03125rem solid black;
-    word-spacing: 5rem;
-    line-height: 5rem;
-    margin-left: 4rem;
-}
-
-nav a{
-    font-family: "lato", Verdana, sans-serif;
-    font-size: 2rem;
-    color: blue;
-}
-
-
-h2 {
-    font-family:"roboto", Verdana, sans-serif;
-    font-size: 1.5rem;
-    text-align: left;
-    margin-top: 3rem;
-    margin-left: 4rem;
-}
-
-h3 {
-    font-family: "opensans", Verdana, sans-serif;
-    font-size: 1.25rem;
-    text-align: left;
-}
-
-p {
-    font-family: "lato", Verdana, sans-serif;
-    text-align: left;
-
-}
-
-.time {
-    font-size: .75rem;
-    font-style: oblique;
-}
-
-figure {
- margin-bottom: none;
-}
-
-figcaption {
-    border-top: 1rem solid rgba(230, 240, 147, 0.986);
-    border-left: .0625rem solid rgba(230, 240, 147, 0.986);
-    border-right: .0625rem solid rgba(230, 240, 147, 0.986);
-    border-bottom: .0625rem solid rgba(230, 240, 147, 0.986);
-    background-color: rgba(230, 240, 147, 0.986);
-}
-
-aside {
-    margin-left: 2rem;
-    margin-right: 3rem;
-    
-}
-
-.dots {
-    font-size: .25rem;
-}
-
-button {
-    font-family:"ultra", Times, serif;
-    font-size: 1.5rem;
-    text-align: center;
-    border: 0.75rem solid navy;
-    background-color: navy;
-    border-top-right-radius: 10% 30%;
-    border-bottom-left-radius: 10% 30%;
-    border-top-left-radius: 5% 20%;
-    border-bottom-right-radius: 5% 20%;
-    box-shadow: black;
-    color: rgba(230, 240, 147, 0.986);
-    margin-top: 1 rem;
-}
-
-
-footer {
-    font-family: "lato", Verdana, sans-serif;
-}
-
-a {
-    font-family: Times, Georgia, serif; 
-}
-
-/* Link Styling */
-
-a{
-    outline: none;
-    text-decoration-line: none;
-}
-
-a:focus, 
-a:hover {
-    border-bottom: .0625rem solid;
-    background-color: green;
-}
-
-a:active {
-    background-color: purple;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    width: 33%;
 }
