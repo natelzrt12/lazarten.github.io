@@ -63,10 +63,10 @@ nav {
 main, footer {
     margin: 1.25rem auto;
     width: 90%;
-    min-width: 42.5rem;
+    min-width: 42rem;
 }
 
-/* Positioning and Gird Layout */
+/* Position and grid layout  */
 
 header {
     
