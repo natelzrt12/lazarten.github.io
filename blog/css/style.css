@@ -394,14 +394,14 @@ aside {
 aside p {
     clear: right;
     margin-top: 0.5rem;
-    font-size: 0.85rem;
-    line-height: 1.35rem !important;
+    font-size: 0.8rem;
+    line-height: 1.3rem !important;
     padding-bottom: 1.75rem;
     border-bottom: 2px solid #333;
     display: block;
 }
 aside h3 {
-    max-width: 17rem;
+    max-width: 16rem;
     margin-left: 0;
 }
 .expand {
