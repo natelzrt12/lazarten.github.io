@@ -197,7 +197,7 @@ time {
     font-size: 0.75rem;
 }
 
-/* Navigation Menu */
+/* Nav Menu */
 
 nav {
     border-top: 2px solid #333;
@@ -207,12 +207,12 @@ nav {
 }
 
 nav a {
-    font-size: 1.65rem;
+    font-size: 1.6rem;
     font-weight: bold;
     text-decoration: none;
     color: #27476e;
     display: inline-block;
-    padding: 2rem 2.5rem 1.75rem 2rem;
+    padding: 2rem 2.5rem 1.65rem 2rem;
 }
 
 nav a:focus {
@@ -223,7 +223,7 @@ nav a:focus {
     text-decoration: line-through;
     padding-right: 2.425rem;
     position: relative;
-    top: -.35rem;
+    top: -.3rem;
 }
 
 /* Figures and Images */
