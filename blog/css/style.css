@@ -227,7 +227,7 @@ nav a:focus {
     top: -.35rem;
 }
 
-/* Figures and Images */
+/* Images */
 
 .subsection figure {
     margin: 0;
@@ -283,6 +283,7 @@ button {
 
 
 /*
+
 html {
     font-family: Roboto, Arial, sans-serif;
 }
