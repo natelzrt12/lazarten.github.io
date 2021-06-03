@@ -68,11 +68,6 @@ main, footer {
 }
 
 /* Positioning and Gird Layout */
-
-header {
-    
-}
-
 .main-section {
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -100,7 +95,6 @@ aside {
 footer {
     margin-top: 7rem;
     margin-bottom: 2rem;
-}
 
 /* Imported typefaces *//*---------------------------------------------------------------------*/
 
