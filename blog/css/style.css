@@ -48,17 +48,17 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
- /* General setup */
+
 * {
     box-sizing: border-box;
 }
 
 html {
-    font-size:16px;
+    font-size:14px;
 }
 
 nav {
-    min-width: 47.5rem;
+    min-width: 45rem;
 }
 
 main, footer {
@@ -282,7 +282,6 @@ button {
 }
 
 
-/*
 html {
     font-family: Roboto, Arial, sans-serif;
 }
