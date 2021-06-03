@@ -48,5 +48,229 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
-{box-sizing: border-box;}
-html {font-size:16px;}
+ * {
+font-size: 1rem;
+}
+
+/*--Layout--*/
+* {
+    background-color:whitesmoke;
+}
+
+.main-section {
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+.article-image {
+    float: left;
+    margin-right: 1rem;
+}
+
+.subsection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*--Header and Footer--*/
+
+
+.copyright {
+   float: left;
+   text-align: left;
+}
+
+.links {
+   float: right;
+   text-align: right;
+}
+
+/*---------------------------------------------------------------------*/
+
+
+
+/* Imported Typefaces */
+@font-face {
+
+    font-family:"montserrat";
+    src: url(../fonts/sans-serif/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    
+    font-family:"lato";
+    src: url(../fonts/sans-serif/lato-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"opensans";
+    src: url(../fonts/sans-serif/opensans-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"roboto";
+    src: url(../fonts/sans-serif/roboto-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+    @font-face {
+
+        font-family:"josefinslab";
+        src: url(../fonts/serif/josefinslab-regular.ttf) format('truetype');
+        font-weight:normal;
+        font-style:normal;
+    }
+
+    @font-face {
+        font-family:"robotoslab";
+        src: url(../fonts/serif/robotoslab-regular.ttf) format('truetype');
+        font-weight:normal;
+        font-style:normal;
+    }
+
+    @font-face {
+        font-family:"rozhaone";
+        src: url(../fonts/serif/rozhaone-regular.ttf) format('truetype');
+        font-weight:normal;
+        font-style:normal;
+    }
+
+    @font-face {
+        font-family:"ultra";
+        src: url(../fonts/serif/ultra-regular.ttf) format('truetype');
+        font-weight:normal;
+        font-style:normal;
+    }
+/* Typography Styles */
+
+h1 {
+    font-family:"opensans", Verdana, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: black;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    }
+
+.highlight {
+    font-family:"ultra", Times, serif;
+    font-size: 4rem;
+    border: .5rem solid maroon;
+    background-color: maroon;
+    border-top-left-radius: 10% 30%;
+    border-bottom-right-radius: 10% 30%;
+    box-shadow: black;
+    color:rgba(230, 240, 147, 0.986);
+    text-align: center;
+    margin-bottom: 1 rem;
+}
+
+nav {
+    border-top: .03125rem solid black;
+    border-bottom: .03125rem solid black;
+    word-spacing: 5rem;
+    line-height: 5rem;
+    margin-left: 4rem;
+}
+
+nav a{
+    font-family: "lato", Verdana, sans-serif;
+    font-size: 2rem;
+    color: blue;
+}
+
+
+h2 {
+    font-family:"roboto", Verdana, sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+h3 {
+    font-family: "opensans", Verdana, sans-serif;
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+p {
+    font-family: "lato", Verdana, sans-serif;
+    text-align: left;
+
+}
+
+.time {
+    font-size: .75rem;
+    font-style: oblique;
+}
+
+figure {
+ margin-bottom: none;
+}
+
+figcaption {
+    border-top: 1rem solid rgba(230, 240, 147, 0.986);
+    border-left: .0625rem solid rgba(230, 240, 147, 0.986);
+    border-right: .0625rem solid rgba(230, 240, 147, 0.986);
+    border-bottom: .0625rem solid rgba(230, 240, 147, 0.986);
+    background-color: rgba(230, 240, 147, 0.986);
+}
+
+aside {
+    margin-left: 2rem;
+    margin-right: 3rem;
+    
+}
+
+.dots {
+    font-size: .25rem;
+}
+
+button {
+    font-family:"ultra", Times, serif;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 0.75rem solid navy;
+    background-color: navy;
+    border-top-right-radius: 10% 30%;
+    border-bottom-left-radius: 10% 30%;
+    border-top-left-radius: 5% 20%;
+    border-bottom-right-radius: 5% 20%;
+    box-shadow: black;
+    color: rgba(230, 240, 147, 0.986);
+    margin-top: 1 rem;
+}
+
+
+footer {
+    font-family: "lato", Verdana, sans-serif;
+}
+
+a {
+    font-family: Times, Georgia, serif; 
+}
+
+/* Link Styling */
+
+a{
+    outline: none;
+    text-decoration-line: none;
+}
+
+a:focus, 
+a:hover {
+    border-bottom: .0625rem solid;
+    background-color: green;
+}
+
+a:active {
+    background-color: purple;
+}
