@@ -102,7 +102,7 @@ footer {
     margin-bottom: 2rem;
 }
 
-/* Imported typefaces */
+/* Imported typefaces *//*---------------------------------------------------------------------*/
 
 @font-face {
     font-family: "Roboto";
@@ -178,7 +178,7 @@ aside p {
     border-bottom: 2px solid #333;
 }
 
-footer p:nth-child(1) {
+footer p: nth-child(1) {
     float: left;
     margin: 0;
 }
@@ -282,7 +282,7 @@ button {
 }
 
 
-/*
+ /*
 
 html {
     font-family: Roboto, Arial, sans-serif;
