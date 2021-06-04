@@ -1,17 +1,11 @@
 
 /* General basic setup */
 
-* {
-    box-sizing: border-box;
-}
+* {box-sizing: border-box;}
 
-html {
-    font-size:16px;
-}
+html {font-size:16px;}
 
-nav {
-    min-width: 45rem;
-}
+nav {min-width: 45rem;}
 
 main, footer {
     margin: 1.25rem auto;
@@ -73,7 +67,7 @@ h1 span {display: inline-block;
         font-size: 3.7rem;
         font-family: Ultra, serif;
         color: #eeeedd;
-        background-color: #83344d;
+        background-color:darkred;
         padding: .05rem 1rem;
         border-radius: 1rem 0 1rem 0;
         font-weight: normal;
@@ -82,21 +76,18 @@ h1 span {display: inline-block;
 h2 {font-size: 1.5rem;
     color: #333;}
 
-aside h3:first-of-type {
-    margin-top: 0;}
+aside h3:first-of-type {margin-top: 0;}
 
-h3 {
-    font-size: 1rem;
+h3 {font-size: 1rem;
     color: #333;
     margin: 1rem auto;}
 
 p {font-size: 1rem;
     line-height: 1.5rem;}
 
-article p:first-of-type {   margin-top: 0;
-}
+article p:first-of-type {   margin-top: 0;}
 
-aside p {font-size: 0.75rem;
+aside p {font-size: 0.80rem;
     line-height: 1rem;
     padding-bottom: 1.5rem;
     border-bottom: 2px solid #333;}
@@ -111,8 +102,7 @@ footer p:nth-child(2) {text-align: right;
                         padding-left: 40rem;}
 
 time {font-style: italic;
-font-size: 0.75rem;
-}
+font-size: 0.75rem;}
 
 /* Navigation Menu */
 
@@ -141,11 +131,8 @@ nav a:focus {transform: rotate(2deg);
 
 .subsection figure {margin: 0;
     margin-right: 0.5em;
-    background-color: #eeeedd;}
-
-img {
-    width: 100%;
-}
+    background-color:white;}
+img {width: 100%;}
 
 .article-image {
     float: left;
@@ -167,17 +154,14 @@ footer a:visited {
     color: blueviolet
 }
 
-footer a:active {
-    color: red;
-}
+footer a:active {color: red;}
 
-button {
-    margin-top: 2.5rem;
+button {margin-top: 2.5rem;
     font-family: Ultra, serif;
     font-size: 1.5rem;
-    color: #eeeedd;
+    color:white;
     padding: 1rem 1rem;
-    background-color: #27476e;
+    background-color:darkblue;
     border-radius: 1rem;
     border: none;
     box-shadow: 2px 2px 2px #333;
@@ -238,23 +222,18 @@ nav {
     margin-bottom: 4.5rem;
     margin-right: 0;
 }
-nav a {
-    display: inline-block;
+nav a {display: inline-block;
     font-family: Roboto, serif;
     text-decoration: none;
     color: #27476e;
-    font-weight: bold;
-}
-nav a:focus {
-    color: #000;
+    font-weight: bold;}
+nav a:focus {color: #000;
     transform: rotate(4deg);
     text-transform: uppercase;
     font-size: .85em;
     text-decoration: line-through;
     position: relative;
-    top: -0.25rem;
-    
-}
+    top: -0.25rem}
 .article-image {
     float: left;
     margin: 0 1.25rem 1rem 0;}
