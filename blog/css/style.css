@@ -67,7 +67,7 @@ h1 span {display: inline-block;
         font-size: 3.7rem;
         font-family: Ultra, serif;
         color: #eeeedd;
-        background-color:
+        background-color: #83344d;
         padding: .05rem 1rem;
         border-radius: 1rem 0 1rem 0;
         font-weight: normal;
@@ -164,11 +164,14 @@ button {margin-top: 2.5rem;
     background-color:darkblue;
     border-radius: 1rem;
     border: none;
-    box-shadow: 2px 2px 2px #333;}
+    box-shadow: 2px 2px 2px #333;
+}
 
-.expand {display: block;
+.expand {
+    display: block;
     font-size: .25rem;
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 
 /*
