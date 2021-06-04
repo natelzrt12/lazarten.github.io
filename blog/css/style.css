@@ -87,17 +87,15 @@ h1 {
     letter-spacing: 0.1rem;
 }
 
-h1 span {
-    display: inline-block;
-    font-size: 3.7rem;
-    font-family: Ultra, serif;
-    color: #eeeedd;
-    background-color: #83344d;
-    padding: .05rem 1rem;
-    border-radius: 1rem 0 1rem 0;
-    font-weight: normal;
-    box-shadow: 3px 3px 3px #333;
-}
+h1 span {display: inline-block;
+        font-size: 3.7rem;
+        font-family: Ultra, serif;
+        color: #eeeedd;
+        background-color: #83344d;
+        padding: .05rem 1rem;
+        border-radius: 1rem 0 1rem 0;
+        font-weight: normal;
+        box-shadow: 3px 3px 3px #333;}
 
 h2 {font-size: 1.5rem;
     color: #333;}
@@ -121,40 +119,32 @@ aside p {font-size: 0.75rem;
     padding-bottom: 1.5rem;
     border-bottom: 2px solid #333;}
 
-footer p:nth-child(1) {
-    float: left;
+footer p:nth-child(1) {float: left;
     margin: 0;}
 
-footer a {
-    text-decoration: none;
+footer a {text-decoration: none;
     color: #6f7d77;}
 
-footer p:nth-child(2) {
-    text-align: right;
-    padding-left: 40rem;
-}
+footer p:nth-child(2) {text-align: right;
+                        padding-left: 40rem;}
 
-time {
-    font-style: italic;
-    font-size: 0.75rem;
+time {font-style: italic;
+font-size: 0.75rem;
 }
 
 /* Navigation Menu */
 
-nav {
-    border-top: 2px solid #333;
+nav {border-top: 2px solid #333;
     border-bottom: 2px solid #333;
     padding-left: 2.5rem;
-    margin-bottom: 3.5rem;
-}
+    margin-bottom: 3.5rem;}
 
-nav a {
-    font-size: 1.65rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: #27476e;
-    display: inline-block;
-    padding: 2rem 2.5rem 1.75rem 2rem;}
+nav a {font-size: 1.65rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: #27476e;
+        display: inline-block;
+        padding: 2rem 2.5rem 1.75rem 2rem;}
 
 nav a:focus {transform: rotate(2deg);
     text-transform: uppercase;
