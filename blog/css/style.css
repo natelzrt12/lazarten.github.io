@@ -46,7 +46,7 @@ aside {
     grid-column: 2;
     grid-row: 1;
     border-left: 2px solid #333;
-    padding-left: 2.5rem;
+    padding-left: 2.5rem;s
 }
 
 footer {
@@ -56,36 +56,28 @@ footer {
 
 /*    Typefaces */
 
-@font-face {
-    font-family: "Roboto";
-    src: url(../fonts/sans-serif/roboto-regular.ttf) format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face {font-family: "Roboto";
+            src: url(../fonts/sans-serif/roboto-regular.ttf) format("truetype");
+            font-weight: normal;
+            font-style: normal;}
 
-@font-face {
-    font-family: "Ultra";
-    src: url(../fonts/serif/ultra-regular.ttf) format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face {font-family: "Ultra";
+            src: url(../fonts/serif/ultra-regular.ttf) format("truetype");
+            font-weight: normal;
+            font-style: normal;}
 
 /* Typography */
 
-html {
-    font-family: Roboto, "Arial", sans-serif;
-}
+html {font-family: Roboto, "Arial", sans-serif;}
 
-h1 {
-    font-size: 3.5rem;
+h1 {font-size: 3.5rem;
     transform: rotate(-4deg);
     color: #333;
     text-align: center;
     margin-top: 2.2rem;
     margin-bottom: 6rem;
     text-shadow: 2px 2px 2px #333;
-    letter-spacing: 0.1rem;
-}
+    letter-spacing: 0.1rem;}
 
 h1 span {display: inline-block;
         font-size: 3.7rem;
