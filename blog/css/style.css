@@ -50,7 +50,7 @@ aside {
 }
 
 footer {
-    margin-top: 7rem;
+    margin-top: 6.5rem;
     margin-bottom: 2rem;
 }
 
@@ -350,25 +350,16 @@ aside h3 {
     text-decoration: none;
     font-size: 0.3rem !important;
 }
-time {
-    font-style: italic;
+time {Sfont-style: italic;
     font-size: 0.9rem;
-    margin-left: 0.1rem;
-}
-h3 {
-    font-family: Roboto;
+    margin-left: 0.1rem;}
+h3 {font-family: Roboto;
     color: #333;
     margin: 1.2rem auto;
-    font-size: 1.15rem;
-}
-aside h3:first-of-type {
-    margin-top: 0;
-    padding: 0;
-}
-aside img {
-    width: 18rem;
-}
+    font-size: 1.15rem;}
+aside h3:first-of-type {margin-top: 0;
+    padding: 0;}
+aside img {width: 18rem;}
 article p:first-of-type {
-    margin-top: 0;
-}
+    margin-top: 0;}
 */
