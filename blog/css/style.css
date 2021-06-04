@@ -154,27 +154,22 @@ nav a {
     text-decoration: none;
     color: #27476e;
     display: inline-block;
-    padding: 2rem 2.5rem 1.75rem 2rem;
-}
+    padding: 2rem 2.5rem 1.75rem 2rem;}
 
-nav a:focus {
-    transform: rotate(3deg);
+nav a:focus {transform: rotate(2deg);
     text-transform: uppercase;
     font-size: 1.4em;
     color: #000;
     text-decoration: line-through;
     padding-right: 2.425rem;
     position: relative;
-    top: -.35rem;
-}
+    top: -.35rem;}
 
 /* Figures and Images */
 
-.subsection figure {
-    margin: 0;
+.subsection figure {margin: 0;
     margin-right: 0.5em;
-    background-color: #eeeedd;
-}
+    background-color: #eeeedd;}
 
 img {
     width: 100%;
@@ -290,67 +285,43 @@ nav a:focus {
 }
 .article-image {
     float: left;
-    margin: 0 1.25rem 1rem 0;
-    
-}
-.article-image img {
-    width: 29rem;
-}
+    margin: 0 1.25rem 1rem 0;}
+.article-image img {width: 29rem;}
 .subsection {
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: repeat(3, 23.75rem);
-}
-.subsection figure {
-    background-color: #eeeedd;
-}
-.subsection figcaption {
-    
-}
-.subsection img {
-    width: 23rem;
-    display: block;
-}
-h2 {
-    font-family: Roboto, serif;
+    grid-template-columns: repeat(3, 23.75rem);}
+.subsection figure {background-color: #eeeedd;}
+.subsection figcaption {}
+.subsection img {width: 23rem;
+    display: block;}
+h2 {font-family: Roboto, serif;
     font-size: 1.75rem;
-    color: #333;
-}
+    color: #333;}
 .main-section {
-    display: flex;
-}
-article {
-    margin-right: 3rem;
-    max-width: 11px;
-}
-aside {
-    max-width: 18rem;
+    display: flex;}
+article {margin-right: 3rem;
+    max-width: 1125px;}
+aside {max-width: 18rem;
     float: right;
     margin-right: 0;
     padding-right: 0;
     border-left: 2px solid #333;
-    padding-left: 2.75rem;
-}
-aside p {
-    clear: right;
+    padding-left: 2.75rem;}
+aside p {clear: right;
     margin-top: 0.5rem;
     font-size: 0.8rem;
     line-height: 1.3rem !important;
     padding-bottom: 1.75rem;
     border-bottom: 2px solid #333;
-    display: block;
-}
-aside h3 {
-    max-width: 16rem;
-    margin-left: 0;
-}
-.expand {
-    display: block;
+    display: block;}
+aside h3 {max-width: 16rem;
+    margin-left: 0;}
+.expand {display: block;
     margin-top: 0.25rem;
     text-decoration: none;
-    font-size: 0.25rem !important;
-}
-time {Sfont-style: italic;
+    font-size: 0.3rem !important;}
+time {font-style: italic;
     font-size: 0.9rem;
     margin-left: 0.1rem;}
 h3 {font-family: Roboto;
