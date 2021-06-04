@@ -321,7 +321,7 @@ h2 {
 }
 article {
     margin-right: 3rem;
-    max-width: 1100px;
+    max-width: 11px;
 }
 aside {
     max-width: 18rem;
@@ -338,7 +338,8 @@ aside p {
     line-height: 1.3rem !important;
     padding-bottom: 1.75rem;
     border-bottom: 2px solid #333;
-    display: block;}
+    display: block;
+}
 aside h3 {
     max-width: 16rem;
     margin-left: 0;
@@ -356,5 +357,9 @@ h3 {font-family: Roboto;
     color: #333;
     margin: 1.2rem auto;
     font-size: 1.15rem;}
-
+aside h3:first-of-type {margin-top: 0;
+    padding: 0;}
+aside img {width: 18rem;}
+article p:first-of-type {
+    margin-top: 0;}
 */
